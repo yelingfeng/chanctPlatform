@@ -1,10 +1,14 @@
 /**
  * Created by ylf on 2017/7/22.
  */
-import ChanctForm from './chanctForm.core'
+import ChanctForm from './Form/index.vue'
 
-export const initForm = () => {
-  const cf = new ChanctForm()
-  console.log(cf.getForm())
+ChanctForm.install = function (Vue) {
+  Vue.component(ChanctForm.name, ChanctForm)
 }
 
+if (typeof window !== 'undefined' && window.Vue) {
+  window.Vue.use(ChanctForm)
+}
+
+export default ChanctForm

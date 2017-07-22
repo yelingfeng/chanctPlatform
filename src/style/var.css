@@ -1,0 +1,9 @@
+:root{
+    --border-color: #006aa4;
+    --font-color: #9af5f6;
+    --con-size: 14px;
+    --title-size: 16px;
+    --htitle-size: 26px;
+    --bg-color: #041024;
+    --breadcrumb-color:rgba(255, 104, 10, .8);
+}

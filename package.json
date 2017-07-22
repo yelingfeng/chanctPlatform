@@ -4,8 +4,8 @@
   "description": "chanct platform",
   "main": "src/main.js",
   "scripts": {
-    "dev": "poi",
-    "lint" : "xo src/index.js",
+    "example": "poi",
+    "lint": "xo src/index.js",
     "build": "bili --filename chanctPlatform --format umd,cjs,umdCompress --module-name ChanctPlatform --buble.objectAssign assign"
   },
   "repository": {
@@ -19,11 +19,14 @@
   },
   "homepage": "https://github.com/yelingfeng/chanctPlatform#readme",
   "devDependencies": {
-    "bili": "^0.17.3",
     "eslint": "^4.1.1",
     "eslint-config-vue": "^2.0.2",
     "eslint-plugin-vue": "^2.1.0",
     "jest": "^20.0.4",
+    "postcss-salad": "^2.0.1",
+    "rollup": "^0.45.2",
+    "rollup-plugin-buble": "^0.15.0",
+    "uglify-js": "^3.0.25",
     "vue": "^2.3.4",
     "xo": "^0.18.2"
   },
