@@ -3,10 +3,10 @@ import buble from 'rollup-plugin-buble'
 export default {
   entry: 'src/index.js',
   plugins: [buble()],
-  moduleName: 'chanctForm',
+  moduleName: 'xForm',
   targets: [
-    { dest: 'dist/chanctForm.js', format: 'umd' },
-    { dest: 'dist/chanctForm.common.js', format: 'cjs' },
-    { dest: 'dist/chanctForm.esm.js', format: 'es' }
+    { dest: 'dist/xForm.js', format: 'umd' },
+    { dest: 'dist/xForm.common.js', format: 'cjs' },
+    { dest: 'dist/xForm.esm.js', format: 'es' }
   ]
 }
