@@ -1,4 +1,3 @@
-# chanctPlatform
-chanct Platform
+# xPlatform
+xPlatform
 
-![Build Status](https://travis-ci.org/yelingfeng/chanctPlatform.svg?branch=master)
