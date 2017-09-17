@@ -1,14 +1,14 @@
 /**
  * Created by ylf on 2017/7/22.
  */
-import ChanctForm from './Form/index.vue'
+import xForm from './Form/index.vue'
 
-ChanctForm.install = function (Vue) {
-  Vue.component(ChanctForm.name, ChanctForm)
+xForm.install = function (Vue) {
+  Vue.component(xForm.name, xForm)
 }
 
 if (typeof window !== 'undefined' && window.Vue) {
-  window.Vue.use(ChanctForm)
+  window.Vue.use(xForm)
 }
 
-export default ChanctForm
+export default xForm
