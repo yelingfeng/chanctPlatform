@@ -1,23 +1,23 @@
 {
-  "name": "chanct-platform",
+  "name": "xplatform",
   "version": "0.0.1",
-  "description": "chanct platform",
+  "description": "x platform",
   "main": "src/main.js",
   "scripts": {
     "example": "poi",
     "lint": "xo src/index.js",
-    "build": "bili --filename chanctPlatform --format umd,cjs,umdCompress --module-name ChanctPlatform --buble.objectAssign assign"
+    "build": "bili --filename xPlatform --format umd,cjs,umdCompress --module-name xPlatform --buble.objectAssign assign"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yelingfeng/chanctPlatform.git"
+    "url": "git+https://github.com/yelingfeng/xPlatform.git"
   },
   "author": "yelingfeng",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yelingfeng/chanctPlatform/issues"
+    "url": "https://github.com/yelingfeng/xPlatform/issues"
   },
-  "homepage": "https://github.com/yelingfeng/chanctPlatform#readme",
+  "homepage": "https://github.com/yelingfeng/xPlatform#readme",
   "devDependencies": {
     "eslint": "^4.1.1",
     "eslint-config-vue": "^2.0.2",
