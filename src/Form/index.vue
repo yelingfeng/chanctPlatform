@@ -9,7 +9,7 @@
     import buttonComp from './button'
     import keywordComp from './keyWord'
     export default {
-        name: 'ChanctForm',
+        name: 'xForm',
         props: [
             'option'
         ],
