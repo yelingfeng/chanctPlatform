@@ -1,6 +1,6 @@
 <template>
     <div class="app" :style="styleObj" >
-        <ChanctForm :option="formObj" ref="form"></ChanctForm>
+        <xForm :option="formObj" ref="form"></xForm>
     </div>
 </template>
 <script>
